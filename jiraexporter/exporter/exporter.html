@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello World</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="exporter.css">
+    <script src="utils/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+    <div class="exporter-page">
+    	<form>
+    		<button type="button" id="configButton" >Iniciar proceso</button> <br>
+    		<label for="inpJiraToken">Jira Token:</label><input type="text" id="inpJiraToken" name="inpJiraToken"><br><br>
+    		<label for="inpJiraServer">Jira Server:</label><input type="text" id="inpJiraServer" name="inpJiraServer"><br><br>    		
+    		<label for="inpNodejsServer">Nodejs Server:</label><input type="text" id="inpNodejsServer" name="inpNodejsServer"><br><br>    		
+    		<label for="inpGroup1">Group 1 Mail dirs:</label><input type="text" id="inpGroup1" name="inpGroup1"><br><br>
+    		<label for="inpGroup2">Group 2 Mail dirs:</label><input type="text" id="inpGroup2" name="inpGroup2"><br><br>
+    		<label for="inpGroup3">Group 3 Mail dirs:</label><input type="text" id="inpGroup3" name="inpGroup3"><br><br>
+    		<label for="inpGroupSrc">Group Source Mail dirs:</label><input type="text" id="GroupSrc" name="GroupSrc"><br><br>    		
+			<label for="inpAccount">Account:</label><input type="text" id="inpAccounts" name="inpAccounts"><br><br>
+  			<label for="inpPaths">Paths:</label><input type="text" id="inpPaths" name="inpPaths"><br><br>
+    	</form>
+    </div>
+    <script type="module" src="exporter.js"></script>
+</body>
+
+</html>
