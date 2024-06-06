@@ -247,7 +247,7 @@ $('#configButton').on('click', async function() {
   params.jiraServer=$('#inpJiraServer').val();
   params.nodejsServer=$('#inpNodejsServer').val();
 
-  params.distinctive=$('#inpDistinctive').val().split(",");
+//  params.distinctive=$('#inpDistinctive').val().split(",");
   params.mailsGroup1=$('#inpGroup1').val().split(",");
   params.mailsGroup2=$('#inpGroup2').val().split(",");
   params.mailsGroup3=$('#inpGroup3').val().split(",");
